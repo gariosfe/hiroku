@@ -38,3 +38,4 @@ app.use('/api', financials_goalsRoutes);
 
 app.listen(config.port, () =>
   console.log(`Server is live @ ${config.hostUrl}`),
+);
